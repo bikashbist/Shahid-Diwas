@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "ARAP11Regular";
+  src: url("/font/arap111/ARAP 1111 Regular.ttf") format("truetype");
+  /* Adjust the path */
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #FDD835;
+}
+
+.w-300 {
+  width: 300px;
+}
+
+.bg-body-theme {
+  background-color: #e36f1e !important;
+  background-color: #2260bf !important;
+}
+
+.header {
+  /* If you have other content in the &__details, make sure to style it to appear above the overlay */
+}
+.header__details {
+  position: relative; /* Ensure the pseudo-element is positioned relative to this parent */
+  background-image: url(../img/sahid1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__details::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(34, 96, 191, 0.9294117647);
+  z-index: 1; /* Ensure it appears above the background image */
+  pointer-events: none; /* Allows interactions with the parent element */
+}
+.header__details > * {
+  position: relative;
+  z-index: 2; /* Place content above the overlay */
+}
+.header__top {
+  max-width: 100%;
+  width: 100%;
+  min-height: 2.75rem;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 0.95rem;
+  text-align: right;
+}
+.header__top p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  line-height: 44px;
+}
+.header__middle .logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.header__middle .logo__details h2 {
+  font-family: "ARAP11Regular";
+  font-weight: 900;
+  margin-bottom: 0px;
+  color: #fff;
+}
+.header__middle .logo__details p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-weight: 900;
+  color: #fff;
+}
+.header__inner .logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.header__inner .logo__details h2 {
+  font-family: "ARAP11Regular";
+  font-weight: 900;
+  margin-bottom: 0px;
+  color: #0071c0;
+}
+.header__inner .logo__details p {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-weight: 900;
+  color: #e36f1e;
+}
+.header__inner a {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline-block;
+  letter-spacing: 0.6px;
+  color: #fff;
+}
+.header__inner .nav-link {
+  padding: 0px 15px !important;
+}
+
+.tel-phone .icon {
+  border: 1px solid #a4a4a4;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+}
+
+img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
