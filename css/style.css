@@ -15,7 +15,6 @@
 
 .bg-body-theme {
   background-color: #e36f1e !important;
-  background-color: #2260bf !important;
 }
 
 .header {
@@ -97,7 +96,7 @@
   color: #fff;
 }
 .header__inner .nav-link {
-  padding: 0px 15px !important;
+  padding: 6px 15px !important;
 }
 
 .tel-phone .icon {
