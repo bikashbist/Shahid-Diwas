@@ -111,4 +111,9 @@
 
 img {
   width: 100%;
+}
+
+.sliderContent {
+  margin-top: -150px;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
