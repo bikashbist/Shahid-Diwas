@@ -190,3 +190,36 @@ img {
 .sidebar-dash{
     border: dashed;
 }
+.pardesh{
+    &__details{
+        ul{
+            padding: 0;
+            margin: 0;
+            li{
+                list-style-type: none;
+                display: contents;
+                a{
+                    padding: 10px 20px;
+                    text-decoration: none;
+                    border: 1px solid #a4a4a4;
+                    display: inline-block;
+                    color: #e36f1e;
+                    font-weight: 600;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.pardesh-title{
+    color: #000;
+    text-decoration: none;
+    
+    h2{
+        font-size: 20px;
+    }
+}
+.pardesh__card{
+    background-color: #cddff3;
+}
