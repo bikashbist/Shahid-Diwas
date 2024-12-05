@@ -8,8 +8,15 @@
 body{
 background-color: #e9f5ff;
 }
+p{
+    font-family: "Poppins", sans-serif;
+}
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
     color: #FDD835;
+}
+.bg-primary-dark {
+    --bs-bg-opacity: 1;
+    background-color: #1a237ee3 !important;
 }
 .w-300{
     width: 300px;
@@ -17,6 +24,9 @@ background-color: #e9f5ff;
 .bg-body-theme{
     background-color: #e36f1e!important;
     // background-color: #2260bf !important;
+}
+div#exampleModal {
+    background: #1a1a1aa3;
 }
 .header {
     &__details {
@@ -79,7 +89,7 @@ background-color: #e9f5ff;
                 p {
                     margin-bottom: 0px;
                     padding-bottom: 0px;
-                    font-weight: 900;
+                   
                     color: #fff;
                 }
             }
@@ -233,5 +243,21 @@ img {
     color: #fff;
     .border-top{
         border-top: 1px solid #424242 !important
+    }
+}
+.search-form {
+    width: 100%;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid #6D4C41;
+}
+.modal-without-bg {
+    background-color: #10101000 !important;
+    border: none;
+}
+.banner-inner{
+    img{
+        height: 350px;
+        object-fit: cover;
     }
 }

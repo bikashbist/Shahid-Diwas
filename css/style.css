@@ -9,8 +9,17 @@ body {
   background-color: #e9f5ff;
 }
 
+p {
+  font-family: "Poppins", sans-serif;
+}
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: #FDD835;
+}
+
+.bg-primary-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(26, 35, 126, 0.8901960784) !important;
 }
 
 .w-300 {
@@ -19,6 +28,10 @@ body {
 
 .bg-body-theme {
   background-color: #e36f1e !important;
+}
+
+div#exampleModal {
+  background: rgba(26, 26, 26, 0.6392156863);
 }
 
 .header {
@@ -72,7 +85,6 @@ body {
 .header__middle .logo__details p {
   margin-bottom: 0px;
   padding-bottom: 0px;
-  font-weight: 900;
   color: #fff;
 }
 .header__inner .logo img {
@@ -204,4 +216,22 @@ img {
 }
 .footer .border-top {
   border-top: 1px solid #424242 !important;
+}
+
+.search-form {
+  width: 100%;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 2px solid #6D4C41;
+}
+
+.modal-without-bg {
+  background-color: rgba(16, 16, 16, 0) !important;
+  border: none;
+}
+
+.banner-inner img {
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
