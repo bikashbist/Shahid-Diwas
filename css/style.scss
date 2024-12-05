@@ -217,9 +217,21 @@ img {
     text-decoration: none;
     
     h2{
-        font-size: 20px;
+        font-size: 26px;
     }
 }
 .pardesh__card{
-    background-color: #cddff3;
+    background-color: #e9f5ff;
+}
+.sidebar-pardesh {
+    h2{
+        font-size: 18px;
+    } 
+}
+.footer{
+    background-color: #2a2a2a;
+    color: #fff;
+    .border-top{
+        border-top: 1px solid #424242 !important
+    }
 }
