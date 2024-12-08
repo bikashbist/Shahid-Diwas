@@ -19,7 +19,7 @@ p {
 
 .bg-primary-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(26, 35, 126, 0.8901960784) !important;
+  background-color: rgba(42, 42, 42, 0.82) !important;
 }
 
 .w-300 {
@@ -127,6 +127,24 @@ div#exampleModal {
 
 img {
   width: 100%;
+}
+
+.donation-modal {
+  text-align: center;
+}
+.donation-modal .img-logo {
+  width: 200px;
+  height: 200px;
+}
+.donation-modal .img-qr {
+  height: 350px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.donation-modal h4 {
+  padding: 15px;
+  font-weight: bold;
+  color: white;
 }
 
 .sliderContent {

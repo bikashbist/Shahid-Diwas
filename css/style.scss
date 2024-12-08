@@ -16,7 +16,7 @@ p{
 }
 .bg-primary-dark {
     --bs-bg-opacity: 1;
-    background-color: #1a237ee3 !important;
+    background-color: rgb(42 42 42 / 82%) !important;
 }
 .w-300{
     width: 300px;
@@ -149,6 +149,22 @@ div#exampleModal {
 }
 img {
     width: 100%;
+}
+.donation-modal{
+    text-align: center;
+    .img-logo{
+        width: 200px;
+        height: 200px;
+    }
+    .img-qr{
+        height: 350px;
+        object-fit: contain;
+    }
+    h4{
+        padding: 15px;
+        font-weight: bold;
+        color: white;
+    }
 }
 .sliderContent{
     margin-top: -150px;
