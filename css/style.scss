@@ -24,11 +24,29 @@ background-color: #e9f5ff;
     margin-top: -0.5rem;
     display: none;
 }
+.donation-status{
+    &::after{
+        clear: both;
+        content: ' ';
+        display: block;
+        font-size: 0;
+        line-height: 0;
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+}
 
 .dropdown-submenu:hover > .dropdown-menu {
     display: block;
 }
+.donation__middle--header{
+    img{
+        width: 100px;
+    }
 
+}
 p{
     font-family: "Poppins", sans-serif;
 }
