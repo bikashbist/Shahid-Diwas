@@ -9,6 +9,30 @@ body {
   background-color: #e9f5ff;
 }
 
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-menu.dropdown-center {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dropdown-item {
+  font-size: 16px !important;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -0.5rem;
+  display: none;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
+
 p {
   font-family: "Poppins", sans-serif;
 }
@@ -19,7 +43,7 @@ p {
 
 .bg-primary-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(42, 42, 42, 0.82) !important;
+  background-color: rgb(227, 111, 30) !important;
 }
 
 .w-300 {
