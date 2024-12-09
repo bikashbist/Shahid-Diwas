@@ -52,7 +52,7 @@ body {
   float: right;
   width: auto;
   height: 400px;
-  padding: 0px 0px 0px 30px;
+  padding: 0px 0px 30px 30px;
   -o-object-fit: cover;
      object-fit: cover;
 }
