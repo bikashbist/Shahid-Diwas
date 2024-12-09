@@ -47,6 +47,13 @@ background-color: #e9f5ff;
     }
 
 }
+.card-img-right {
+    float: right;
+    width: auto;
+    height: 400px;
+    padding: 0px 0px 0px 30px;
+    object-fit: cover;
+}
 p{
     font-family: "Poppins", sans-serif;
 }

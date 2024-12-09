@@ -48,6 +48,15 @@ body {
   width: 100px;
 }
 
+.card-img-right {
+  float: right;
+  width: auto;
+  height: 400px;
+  padding: 0px 0px 0px 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 p {
   font-family: "Poppins", sans-serif;
 }
